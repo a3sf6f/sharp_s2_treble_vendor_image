@@ -1,0 +1,49 @@
+import /vendor/etc/init/hw/init.ftm.rc
+import /vendor/etc/init/hw/init.${ro.boot.device}.target.rc
+import /vendor/etc/init/hw/init.qcom.cda.rc
+
+# touch
+import /vendor/etc/init/hw/init.qcom.tp.rc
+
+# lcm
+import /vendor/etc/init/hw/init.qcom.lcm.rc
+
+# emmc + ddr
+import /vendor/etc/init/hw/init.qcom.emmc.rc
+
+#Fih add for securefs
+import /vendor/etc/init/hw/init.qcom.fs.rc
+
+import /vendor/etc/init/hw/init.qcom.battery.rc
+
+on early-init
+    setprop ro.bsp.device ${ro.boot.device}
+
+service wireless-init /system/vendor/bin/wireless_init -i
+    class main
+    user system
+    group system
+    oneshot
+
+#create the necessary /data/preloads directory for In-Factory APK Caching
+on post-fs-data
+    mkdir /data/preloads 0775 system system
+    mkdir /data/preloads/media 0775 system system
+    mkdir /data/preloads/demo 0775 system system
+    restorecon_recursive /data/preloads
+    mkdir /data/preloads/apps-postinstall 0775 system system
+    restorecon_recursive /data/preloads/apps-postinstall
+
+#Alan, Add for imei backup
+on property:init.svc.ril-daemon=running
+    write /proc/AllHWList/imei ${persist.radio.imei}
+
+#Disable IMEI2 Backup
+#on property:init.svc.ril-daemon2=running
+#    write /proc/AllHWList/imei2 ${persist.radio.imei2}
+
+on property:sys.gxfp.version=*
+    setprop sys.fp.firmware.version  Goodix-${sys.gxfp.version}
+
+on property:ro.product.nickname=*
+    setprop persist.sys.exif.model ${ro.product.nickname}
