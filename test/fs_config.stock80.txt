@@ -2401,7 +2401,6 @@ lib/libstreamparser.so 0 0 0644 selabel=u:object_r:vendor_file:s0 capabilities=0
 lib/libsubsystem_control.so 0 0 0644 selabel=u:object_r:vendor_file:s0 capabilities=0x0
 lib/libsurround_3mic_proc.so 0 0 0644 selabel=u:object_r:vendor_file:s0 capabilities=0x0
 lib/libsystem_health_mon.so 0 0 0644 selabel=u:object_r:vendor_file:s0 capabilities=0x0
-lib/libteeclientjni.so 0 0 0644 selabel=u:object_r:vendor_file:s0 capabilities=0x0
 lib/libthermalclient.so 0 0 0644 selabel=u:object_r:vendor_file:s0 capabilities=0x0
 lib/libtime_genoff.so 0 0 0644 selabel=u:object_r:vendor_file:s0 capabilities=0x0
 lib/libtinycompress_vendor.so 0 0 0644 selabel=u:object_r:vendor_file:s0 capabilities=0x0
@@ -2905,7 +2904,6 @@ lib64/libstagefrighthw.so 0 0 0644 selabel=u:object_r:vendor_file:s0 capabilitie
 lib64/libstreamparser.so 0 0 0644 selabel=u:object_r:vendor_file:s0 capabilities=0x0
 lib64/libsubsystem_control.so 0 0 0644 selabel=u:object_r:vendor_file:s0 capabilities=0x0
 lib64/libsystem_health_mon.so 0 0 0644 selabel=u:object_r:vendor_file:s0 capabilities=0x0
-lib64/libteeclientjni.so 0 0 0644 selabel=u:object_r:vendor_file:s0 capabilities=0x0
 lib64/libthermalclient.so 0 0 0644 selabel=u:object_r:vendor_file:s0 capabilities=0x0
 lib64/libthermalioctl.so 0 0 0644 selabel=u:object_r:vendor_file:s0 capabilities=0x0
 lib64/libtime_genoff.so 0 0 0644 selabel=u:object_r:vendor_file:s0 capabilities=0x0
