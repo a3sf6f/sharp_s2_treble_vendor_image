@@ -1,6 +1,7 @@
 /(BBSYS|vendor/BBSYS)(/.*)?		u:object_r:bbs_file:s0
 /(elabel|vendor/elabel)(/.*)?		u:object_r:fih_elabel_data_file:s0
 /(hidden|vendor/hidden)(/.*)?		u:object_r:hidden_files:s0
+/vendor/bin/dun-server			u:object_r:dun-server_exec:s0
 /(vendor|system/vendor)/bin/ks		u:object_r:mdm_helper_exec:s0
 /(vendor|system/vendor)/bin/qti		u:object_r:qti_exec:s0
 /(vendor|system/vendor)/bin/mmi		u:object_r:mmi_exec:s0
