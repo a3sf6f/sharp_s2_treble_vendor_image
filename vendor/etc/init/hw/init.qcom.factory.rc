@@ -58,7 +58,7 @@ on mmi
     start fastmmi
 
     # A/B update verifier that marks a successful boot.
-    exec - root cache -- /system/bin/update_verifier nonencrypted
+    exec - root cache -- /vendor/bin/update_verifier nonencrypted
 
     #mkdir for factory data files.
     mkdir /persist/FTM_AP 0750 root root
