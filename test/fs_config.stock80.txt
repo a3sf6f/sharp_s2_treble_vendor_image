@@ -699,8 +699,6 @@ etc/media_codecs_google_audio.xml 0 0 0644 selabel=u:object_r:vendor_configs_fil
 etc/media_codecs_google_telephony.xml 0 0 0644 selabel=u:object_r:vendor_configs_file:s0 capabilities=0x0
 etc/media_codecs_google_video.xml 0 0 0644 selabel=u:object_r:vendor_configs_file:s0 capabilities=0x0
 etc/media_codecs_performance.xml 0 0 0644 selabel=u:object_r:vendor_configs_file:s0 capabilities=0x0
-etc/media_profiles.xml 0 0 0644 selabel=u:object_r:vendor_configs_file:s0 capabilities=0x0
-etc/media_profiles_V1_0.xml 0 0 0644 selabel=u:object_r:vendor_configs_file:s0 capabilities=0x0
 etc/media_profiles_vendor.xml 0 0 0644 selabel=u:object_r:vendor_configs_file:s0 capabilities=0x0
 etc/mixer_paths.xml 0 0 0644 selabel=u:object_r:vendor_configs_file:s0 capabilities=0x0
 etc/mixer_paths_b2n.xml 0 0 0644 selabel=u:object_r:vendor_configs_file:s0 capabilities=0x0
