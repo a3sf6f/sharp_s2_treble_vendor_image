@@ -99,3 +99,4 @@ persist.radio.VT_CAM_INTERFACE=1
 media.nexplayer.enable=0
 
 
+media.settings.xml=/vendor/etc/media_profiles_vendor.xml
