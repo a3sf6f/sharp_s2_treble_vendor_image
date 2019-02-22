@@ -14,6 +14,8 @@ It's a known bug and had been fixed in the upstream and thus the [copy](https://
 
 ## `libnfc-nci-oreo.conf`
 
+**HAS BEEN INTEGRATED INTO `/vendor/workaround/`**
+
 With phh's AOSP 9.0,
 
  * the NFC service would keep crash,
@@ -22,7 +24,7 @@ With phh's AOSP 9.0,
 Lovetz from XDA [mentioned that](https://forum.xda-developers.com/showpost.php?p=78849983&postcount=1832) there is a configuration need to be overwritten in `/system` in order to make NFC work.
 Since it involves the `/system`, I considered as a workaround patch.
 
-### HOW TO PATCH
+### HOW TO PATCH MANUALLY
 
 #### AFTER Flash `/system`, If You Can `su` in `adb shell`
 
