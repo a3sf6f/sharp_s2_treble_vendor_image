@@ -8958,7 +8958,7 @@
 (allow system_app_26_0 hal_keymaster_qti (file (read open)))
 (allow system_app_26_0 hal_qdutils_disp_qti (dir (getattr search)))
 (allow system_app_26_0 hal_tui_comm_qti (dir (getattr search)))
-(allow system_app_26_0 persist_alarm_file (dir (write search)))
+(allow system_app_26_0 persist_alarm_file (dir (ioctl read write getattr lock add_name remove_name search open create)))
 (allow system_app_26_0 remosaic_daemon (dir (getattr)))
 (allow system_app_26_0 bluetooth_26_0 (dir (getattr)))
 (allow system_app_26_0 msm_irqbalanced (dir (getattr search)))
@@ -14106,3 +14106,4 @@
 (typeattributeset base_typeattr_1_26_0 ((and (domain) ((not (bufferhubd_26_0))))))
 (allow platform_app_26_0 camera_prop (file (read getattr open)))
 (allow untrusted_app_26_0 camera_prop (file (read getattr open)))
+(allow system_app_26_0 persist_alarm_file (file (ioctl read write create getattr setattr lock append unlink rename open)))
