@@ -1,6 +1,8 @@
 audio.                           u:object_r:audio_prop:s0
 camera.                    u:object_r:camera_prop:s0
 cda.skuid.                 u:object_r:persist_fih_cda_prop:s0
+ctl.diag_mdlog_start       u:object_r:diag_mdlog_prop:s0
+ctl.diag_mdlog_stop        u:object_r:diag_mdlog_prop:s0
 ctl.gamed                  u:object_r:gamed_prop:s0
 ctl.hbtp                   u:object_r:ctl_hbtp_prop:s0
 ctl.iop                    u:object_r:perfd_prop:s0
@@ -19,6 +21,7 @@ ctl.sensors                u:object_r:sensors_prop:s0
 ctl.vendor.LKCore-dbg      u:object_r:ctl_LKCore_prop:s0
 ctl.vendor.LKCore-rel      u:object_r:ctl_LKCore_prop:s0
 ctl.vendor.imsrcsservice   u:object_r:ctl_vendor_imsrcsservice_prop:s0
+ctl.vendor.msm_irqbal_lb          u:object_r:msm_irqbalance_prop:s0
 ctl.vendor.msm_irqbalance         u:object_r:msm_irqbalance_prop:s0
 ctl.vendor.msm_irqbl_sdm630       u:object_r:msm_irqbl_sdm630_prop:s0
 ctl.vendor.wigig_hostapd    u:object_r:ctl_vendor_wigigsvc_prop:s0
@@ -48,10 +51,12 @@ persist.gsmapp.incallui.rec     u:object_r:persist_fih_gsmapp_incallui_prop:s0
 persist.intentfilter.enable            u:object_r:persist_fih_powersaving_prop:s0
 persist.net.doxlat         u:object_r:xlat_prop:s0
 persist.processinterdict.enable        u:object_r:persist_fih_powersaving_prop:s0
+persist.radio.atfwd.       u:object_r:radio_prop:s0
 persist.rmnet.mux          u:object_r:rmnet_mux_prop:s0
 persist.smartamp.                u:object_r:audio_prop:s0
 persist.sys.abnormalcause     u:object_r:logd_prop:s0
 persist.sys.dbgconfig         u:object_r:logd_prop:s0
+persist.vendor.bt.         u:object_r:bluetooth_prop:s0
 persist.vendor.camera.     u:object_r:camera_prop:s0
 persist.vendor.crash.cnt         u:object_r:crash_prop:s0
 persist.vendor.crash.detect        u:object_r:crash_prop:s0
@@ -95,9 +100,11 @@ sys.usb.tethering          u:object_r:sys_usb_tethering_prop:s0
 sys.usb_uicc.              u:object_r:uicc_prop:s0
 sys.usf.                   u:object_r:usf_prop:s0
 vendor.audio.sys.init             u:object_r:audio_prop:s0
+vendor.bg.boot_complete       u:object_r:bg_boot_complete_prop:s0
 vendor.bg_reset               u:object_r:bg_daemon_prop:s0
 vendor.ims.                u:object_r:qcom_ims_prop:s0
 vendor.peripheral.         u:object_r:per_mgr_state_prop:s0
+vendor.qti.qdma.        u:object_r:qdma_prop:s0
 vendor.radio               u:object_r:radio_prop:s0
 vendor.rild.libpath        u:object_r:vendor_rild_libpath_prop:s0
 vendor.spcom.              u:object_r:spcomlib_prop:s0
