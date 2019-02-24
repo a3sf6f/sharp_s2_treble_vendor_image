@@ -14104,4 +14104,3 @@
 (typeattributeset base_typeattr_2_26_0 ((and (domain) ((not (cameraserver_26_0))))))
 (typeattribute base_typeattr_1_26_0)
 (typeattributeset base_typeattr_1_26_0 ((and (domain) ((not (bufferhubd_26_0))))))
-(allow ueventd_26_0 mba_debug_dev (blk_file (read open)))
