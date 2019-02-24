@@ -14113,3 +14113,4 @@
 (allow pandoraservice vendor_toolbox_exec_26_0 (file (ioctl read getattr lock execute execute_no_trans open)))
 (allow platform_app_26_0 camera_prop (file (read getattr open)))
 (allow untrusted_app_26_0 camera_prop (file (read getattr open)))
+(allow untrusted_app_26_0 opengles_prop (file (read getattr open)))
