@@ -14107,6 +14107,7 @@
 (typeattributeset base_typeattr_1_26_0 ((and (domain) ((not (bufferhubd_26_0))))))
 (allow platform_app_26_0 camera_prop (file (read getattr open)))
 (allow untrusted_app_26_0 camera_prop (file (read getattr open)))
+(allow untrusted_app_26_0 opengles_prop (file (read getattr open)))
 (allow system_app_26_0 persist_alarm_file (file (ioctl read write create getattr setattr lock append unlink rename open)))
 (allow isolated_app_26_0 persist_file (dir (search)))
 (allow isolated_app_26_0 cust_res_files (dir (search)))
