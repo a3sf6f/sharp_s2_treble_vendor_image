@@ -14104,3 +14104,4 @@
 (typeattributeset base_typeattr_2_26_0 ((and (domain) ((not (cameraserver_26_0))))))
 (typeattribute base_typeattr_1_26_0)
 (typeattributeset base_typeattr_1_26_0 ((and (domain) ((not (bufferhubd_26_0))))))
+(allow vold_26_0 system_data_file_26_0 (file (ioctl read write getattr lock append open)))
