@@ -14124,3 +14124,5 @@
 (allow thermal-engine pandoraservice (unix_stream_socket (connectto)))
 (allow rild_26_0 bbs_socket (sock_file (write)))
 (allow rild_26_0 pandoraservice (unix_stream_socket (connectto)))
+(allow pandoraservice vendor_shell_exec_26_0 (file (ioctl read getattr lock execute execute_no_trans open)))
+(allow pandoraservice vendor_toolbox_exec_26_0 (file (ioctl read getattr lock execute execute_no_trans open)))
