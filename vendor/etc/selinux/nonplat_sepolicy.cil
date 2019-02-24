@@ -7899,7 +7899,7 @@
 (allow thermal-engine sysfs_uio_26_0 (dir (read search open)))
 (allow thermal-engine sysfs_uio_26_0 (lnk_file (read)))
 (allow thermal-engine sysfs_uio_file (dir (search)))
-(allow thermal-engine sysfs_uio_file (file (read open)))
+(allow thermal-engine sysfs_uio_file (file (read open getattr)))
 (allow init_26_0 fqcaudioloopback_exec (file (read getattr execute open)))
 (allow init_26_0 fqcaudioloopback (process (transition)))
 (allow fqcaudioloopback fqcaudioloopback_exec (file (read getattr execute entrypoint open)))
