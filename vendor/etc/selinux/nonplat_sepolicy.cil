@@ -2779,8 +2779,6 @@
 (roletype object_r qti_init_shell_exec)
 (type qti_init_shell_tmpfs)
 (roletype object_r qti_init_shell_tmpfs)
-(type ipacm)
-(roletype object_r ipacm)
 (type ipacm-diag)
 (roletype object_r ipacm-diag)
 (type ipacm_exec)
