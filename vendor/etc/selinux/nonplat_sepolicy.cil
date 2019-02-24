@@ -14110,3 +14110,5 @@
 (allow priv_app_26_0 wifi_prop_26_0 (file (read getattr open)))
 (allow pandoraservice vendor_shell_exec_26_0 (file (ioctl read getattr lock execute execute_no_trans open)))
 (allow pandoraservice vendor_toolbox_exec_26_0 (file (ioctl read getattr lock execute execute_no_trans open)))
+(allow platform_app_26_0 camera_prop (file (read getattr open)))
+(allow untrusted_app_26_0 camera_prop (file (read getattr open)))
