@@ -14118,3 +14118,4 @@
 (allow qti_init_shell ctl_console_prop_26_0 (file (ioctl read getattr lock open)))
 (allow qti_init_shell unlabeled_26_0 (file (ioctl read getattr lock open)))
 (allow qti_init_shell unlabeled_26_0 (dir (ioctl read getattr lock open)))
+(allow hwservicemanager_26_0 unlabeled_26_0 (dir (read getattr open)))
