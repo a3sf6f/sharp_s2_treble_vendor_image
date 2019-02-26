@@ -14120,3 +14120,7 @@
 (allow qti_init_shell unlabeled_26_0 (dir (ioctl read getattr lock open)))
 (allow hwservicemanager_26_0 unlabeled_26_0 (dir (read getattr open)))
 (allow servicemanager_26_0 unlabeled_26_0 (dir (read getattr open)))
+(allow thermal-engine bbs_socket (sock_file (write)))
+(allow thermal-engine pandoraservice (unix_stream_socket (connectto)))
+(allow rild_26_0 bbs_socket (sock_file (write)))
+(allow rild_26_0 pandoraservice (unix_stream_socket (connectto)))
