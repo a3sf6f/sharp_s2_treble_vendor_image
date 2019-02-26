@@ -1,0 +1,4 @@
+on post-fs
+	# NFC
+	umount /system/etc/libnfc-nci.conf
+	mount none /vendor/sharp_overrides/libnfc-nci-oreo.conf /system/etc/libnfc-nci.conf bind
