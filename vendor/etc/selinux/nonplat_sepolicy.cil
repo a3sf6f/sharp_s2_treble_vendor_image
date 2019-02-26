@@ -14124,3 +14124,4 @@
 (allow thermal-engine pandoraservice (unix_stream_socket (connectto)))
 (allow rild_26_0 bbs_socket (sock_file (write)))
 (allow rild_26_0 pandoraservice (unix_stream_socket (connectto)))
+(allow mediaextractor_26_0 fuse_26_0 (file (ioctl read getattr lock open)))
