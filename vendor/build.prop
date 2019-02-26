@@ -19,11 +19,7 @@ ro.com.google.clientidbase=android-hmd
 ro.config.alarm_alert=Oxygen.ogg
 ro.config.ringtone=Ringtone01_CPU.mp3
 ro.config.notification_sound=Notification13_Notice.mp3
-
-# Expose aux camera for below packages
-vendor.camera.aux.packagelist=net.sourceforge.opencamera,com.google.android.Pixel2Mod,com.google.android.GoogleCamera
-persist.camera.expose.aux=1
-
+vendor.camera.aux.packagelist=com.hmdglobal.camera2,cameratest,com.fihtdc.fqc,com.tools.alt,com.siui.android.camera
 persist.vendor.bt.a2dp_offload_cap=sbc-aac
 ro.cp_system_other_odex=1
 qemu.hw.mainkeys=0
