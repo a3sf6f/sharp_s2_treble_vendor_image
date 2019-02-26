@@ -8437,7 +8437,7 @@
 (allow qti_init_shell system_app_data_file_26_0 (file (write getattr setattr append)))
 (allow qti_init_shell qti_init_shell (udp_socket (ioctl create)))
 (allow qti_init_shell qti_init_shell (socket (create)))
-(allow qti_init_shell qti_init_shell (capability (setgid setuid net_raw sys_admin)))
+(allow qti_init_shell qti_init_shell (capability (setgid setuid net_raw sys_admin sys_ptrace)))
 (allow qti_init_shell qti_init_shell (appletalk_socket (create)))
 (allow qti_init_shell system_file_26_0 (system (module_load)))
 (allow system_server_26_0 fih_rm_socket_prop (property_service (set)))
