@@ -1,3 +1,6 @@
 on post-fs
 	umount /system/etc/libnfc-nci.conf
 	mount none /vendor/sharp_overrides/libnfc-nci-oreo.conf /system/etc/libnfc-nci.conf bind
+	mount none /vendor/sharp_overrides/oem /oem
+
+	exec - root -- /vendor/bin/sharp_override_system.sh
