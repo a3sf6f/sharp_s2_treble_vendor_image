@@ -2,6 +2,7 @@
 /(elabel|vendor/elabel)(/.*)?		u:object_r:fih_elabel_data_file:s0
 /(hidden|vendor/hidden)(/.*)?		u:object_r:hidden_files:s0
 /vendor/sharp_overrides(/.*)?		u:object_r:system_file:s0
+/vendor/bin/sharp_override_system.sh	u:object_r:sharp_override_exec:s0
 /vendor/bin/dun-server			u:object_r:dun-server_exec:s0
 /vendor/bin/update_verifier		u:object_r:update_verifier_exec:s0
 /(vendor|system/vendor)/bin/ks		u:object_r:mdm_helper_exec:s0

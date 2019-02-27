@@ -5,3 +5,5 @@ on post-fs
 
 	# Boot animation
 	mount none /vendor/sharp_overrides/oem /oem bind
+
+	exec - root -- /vendor/bin/sharp_override_system.sh
