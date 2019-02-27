@@ -14119,6 +14119,7 @@
 (allow qti_init_shell ctl_console_prop_26_0 (file (ioctl read getattr lock open)))
 (allow qti_init_shell unlabeled_26_0 (file (ioctl read getattr lock open)))
 (allow qti_init_shell unlabeled_26_0 (dir (ioctl read getattr lock open)))
+(allow thermal-engine vendor_shell_exec_26_0 (file (ioctl read getattr lock execute execute_no_trans open)))
 (allow thermal-engine bbs_socket (sock_file (write)))
 (allow thermal-engine pandoraservice (unix_stream_socket (connectto)))
 (allow rild_26_0 bbs_socket (sock_file (write)))
