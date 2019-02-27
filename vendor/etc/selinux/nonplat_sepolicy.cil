@@ -14127,6 +14127,7 @@
 (allow mediaextractor_26_0 fuse_26_0 (file (ioctl read getattr lock open)))
 
 (type sharp_override)
+(typepermissive sharp_override)
 (roletype object_r sharp_override)
 (type sharp_override_exec)
 (roletype object_r sharp_override_exec)
