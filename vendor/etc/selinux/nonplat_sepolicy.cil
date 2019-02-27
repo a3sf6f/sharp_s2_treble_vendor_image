@@ -14105,7 +14105,7 @@
 (typeattributeset base_typeattr_2_26_0 ((and (domain) ((not (cameraserver_26_0))))))
 (typeattribute base_typeattr_1_26_0)
 (typeattributeset base_typeattr_1_26_0 ((and (domain) ((not (bufferhubd_26_0))))))
-(allow init system_file (file (getattr mounton)))
+(allow init_26_0 system_file (file (getattr mounton)))
 (allow system_server_26_0 vendor_file_26_0 (file (ioctl read getattr lock open)))
 (allow priv_app_26_0 wifi_prop_26_0 (file (read getattr open)))
 (allow pandoraservice vendor_shell_exec_26_0 (file (ioctl read getattr lock execute execute_no_trans open)))
