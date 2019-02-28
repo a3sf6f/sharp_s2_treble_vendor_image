@@ -28,5 +28,9 @@ ro.logdumpd.enabled=0
 camera.aux.packagelist=net.sourceforge.opencamera,org.codeaurora.snapcam,com.fihtdc.fqc
 ro.product.model.num=00WW
 ro.product.model=FS8010
+ro.product.brand=SHARP
 ro.product.name=FS8010_00WW
+ro.product.device=SS2
 ro.product.manufacturer=FIH
+# ro.build.product is obsolete; use ro.product.device
+ro.build.product=SAT
