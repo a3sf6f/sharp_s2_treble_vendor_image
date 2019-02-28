@@ -14141,3 +14141,5 @@
 (allow sharp_override sharp_override_exec (file (read getattr map execute execute_no_trans open)))
 (allow sharp_override vendor_shell_exec_26_0 (file (read getattr execute execute_no_trans open)))
 (allow sharp_override vendor_toolbox_exec_26_0 (file (read getattr execute execute_no_trans open)))
+(allow sharp_override system_file_26_0 (file (read getattr open)))
+(allow sharp_override system_file_26_0 (dir (read getattr search open)))
