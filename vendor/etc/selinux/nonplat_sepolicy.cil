@@ -14106,3 +14106,4 @@
 (typeattributeset base_typeattr_1_26_0 ((and (domain) ((not (bufferhubd_26_0))))))
 (allow init_26_0 system_file_26_0 (file (getattr mounton)))
 (allow init_26_0 oemfs_26_0 (dir (getattr mounton)))
+(allow system_server_26_0 vendor_file_26_0 (file (ioctl read getattr lock open)))
