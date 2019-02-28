@@ -34,3 +34,4 @@ ro.product.device=SS2
 ro.product.manufacturer=FIH
 # ro.build.product is obsolete; use ro.product.device
 ro.build.product=SAT
+ro.com.android.dataroaming=false
