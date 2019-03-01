@@ -14104,5 +14104,3 @@
 (typeattributeset base_typeattr_2_26_0 ((and (domain) ((not (cameraserver_26_0))))))
 (typeattribute base_typeattr_1_26_0)
 (typeattributeset base_typeattr_1_26_0 ((and (domain) ((not (bufferhubd_26_0))))))
-(allow system_app_26_0 installd_26_0 (service_manager (find)))
-(allow system_app_26_0 netd_26_0 (service_manager (find)))
