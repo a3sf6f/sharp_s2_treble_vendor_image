@@ -6,4 +6,7 @@ on post-fs
 	# Boot animation
 	mount none /vendor/sharp_overrides/oem /oem bind
 
+	# sphal error
+	mount none /vendor/sharp_overrides/ld.config.26.txt /system/etc/ld.config.26.txt bind
+
 	exec - root -- /vendor/bin/sharp_override_system.sh
