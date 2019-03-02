@@ -14125,6 +14125,8 @@
 (allow rild_26_0 bbs_socket (sock_file (write)))
 (allow rild_26_0 pandoraservice (unix_stream_socket (connectto)))
 (allow mediaextractor_26_0 fuse_26_0 (file (ioctl read getattr lock open)))
+(allow system_app_26_0 storaged (binder (call transfer)))
+(allow system_app_26_0 wificond_26_0 (binder (call transfer)))
 
 (type sharp_override)
 (typepermissive sharp_override)
