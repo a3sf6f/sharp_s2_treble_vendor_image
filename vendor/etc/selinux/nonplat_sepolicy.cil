@@ -14116,6 +14116,7 @@
 (allow platform_app_26_0 camera_prop (file (read getattr open)))
 (allow untrusted_app_26_0 camera_prop (file (read getattr open)))
 (allow untrusted_app_26_0 opengles_prop (file (read getattr open)))
+(allow untrusted_app_26_0 qemu_hw_mainkeys_prop (file (read getattr open)))
 (allow qti_init_shell vendor_file_26_0 (file (execute_no_trans)))
 (allow qti_init_shell ctl_console_prop_26_0 (property_service (set)))
 (allow qti_init_shell ctl_console_prop_26_0 (file (ioctl read getattr lock open)))
