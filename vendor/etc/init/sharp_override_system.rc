@@ -1,0 +1,9 @@
+on post-fs
+	# NFC
+	umount /system/etc/libnfc-nci.conf
+	mount none /vendor/sharp_overrides/libnfc-nci-oreo.conf /system/etc/libnfc-nci.conf bind
+
+	# Boot animation
+	mount none /vendor/sharp_overrides/oem /oem bind
+
+	exec - root -- /vendor/bin/sharp_override_system.sh

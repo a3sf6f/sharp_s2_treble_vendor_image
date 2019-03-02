@@ -14,7 +14,7 @@ It's a known bug and had been fixed in the upstream and thus the [copy](https://
 
 ## `libnfc-nci-oreo.conf`
 
-**HAS BEEN INTEGRATED INTO `/vendor/workaround/`**
+**HAS BEEN INTEGRATED INTO `/vendor/sharp_overrides/`**
 
 With phh's AOSP 9.0,
 
