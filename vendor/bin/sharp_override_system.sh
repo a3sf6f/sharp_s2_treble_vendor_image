@@ -22,3 +22,9 @@ done
 for t in $(find /system/app -type d -name "treble*" | grep -e samsung -e xiaomi -e oneplus); do
 	mount -o bind /vendor/sharp_overrides/empty $t || true
 done
+
+# The duplicate causes it unable to boot for AOSP 8.1 v28
+target=/system/overlay/treble-overlay-sharp-s2.apk
+if [ -f $target ] && [ -f /vendor/overlay/treble-overlay-sharp-s2.apk ]; then
+	mount -o bind /vendor/sharp_overrides/empty/empty $target
+fi
