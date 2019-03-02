@@ -14117,6 +14117,8 @@
 (allow untrusted_app_26_0 camera_prop (file (read getattr open)))
 (allow untrusted_app_26_0 opengles_prop (file (read getattr open)))
 (allow untrusted_app_26_0 qemu_hw_mainkeys_prop (file (read getattr open)))
+(allow isolated_app_26_0 app_data_file_26_0 (dir (getattr read search open)))
+(allow isolated_app_26_0 app_data_file_26_0 (file (getattr read)))
 (allow qti_init_shell vendor_file_26_0 (file (execute_no_trans)))
 (allow qti_init_shell ctl_console_prop_26_0 (property_service (set)))
 (allow qti_init_shell ctl_console_prop_26_0 (file (ioctl read getattr lock open)))
@@ -14151,3 +14153,4 @@
 (allow sharp_override vendor_toolbox_exec_26_0 (file (read getattr execute execute_no_trans open)))
 (allow sharp_override system_file_26_0 (file (read getattr open)))
 (allow sharp_override system_file_26_0 (dir (read getattr search open)))
+
