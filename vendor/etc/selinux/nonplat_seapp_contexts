@@ -13,3 +13,4 @@ user=_app seinfo=ssgapp domain=ssg_app name=com.qualcomm.qti.qms.service.telemet
 user=_app seinfo=ssgapp domain=ssg_app name=com.qualcomm.qti.qms.service.credentials type=app_data_file levelFrom=all
 user=system seinfo=platform name=com.fihtdc.pandorasbox domain=system_app type=bbs_app_data_file
 user=system seinfo=platform name=com.evenwell.pandorasbox domain=system_app type=bbs_app_data_file
+user=system seinfo=default domain=system_app type=system_app_data_file
