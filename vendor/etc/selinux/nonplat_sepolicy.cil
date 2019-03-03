@@ -14134,6 +14134,7 @@
 (allow system_app_26_0 storaged (binder (call transfer)))
 (allow system_app_26_0 wificond_26_0 (binder (call transfer)))
 (allow netmgrd system_net_netd_hwservice_26_0 (hwservice_manager (find)))
+(allow hal_bluetooth_qti diag_device (chr_file (ioctl getattr read write open)))
 
 (type sharp_override)
 (typepermissive sharp_override)
